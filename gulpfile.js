@@ -39,4 +39,4 @@ gulp.task('browserSync', function () {
     })
 });
 
-gulp.task('start', ['browserify', 'watch','browserSync']);
+gulp.task('dev', ['browserify', 'watch','browserSync']);
